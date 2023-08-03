@@ -1,0 +1,126 @@
+html,body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+main{
+    margin: 0 0 30px 10px;
+}
+
+#titulo{
+    width: 15%;
+    margin-left: 2%;
+}
+.encabezado{
+    background: #252525;
+    width: 100%;
+    height: 130px;
+    padding: 0 0 25px 0;
+}
+
+
+.pie{
+    background: #252525;
+    width: 100%;
+    height: 80 px;
+    margin:0;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Estilos formulario*/
+.contacto{
+    text-align: center;
+}
+
+form{
+    background-color: #fdf7c3;
+    border-radius: 2.5%;
+    border-style:none;
+    padding: 25px 30px 25px 30px;
+    margin: 0 33% 0 33.5%;
+    text-align:start;
+    display: inline-block;  
+}
+
+/*Estilos de la tabla*/
+.horarios{
+    background-color: #b2a4ff;
+    text-align: center;
+    padding: 35px 0 100px 0;
+    margin:0 auto;
+    }
+    
+    .horarios .titulo{
+        background-color: #e966a0;
+        font-size:xx-large;
+        color:#ffffff;
+        padding: 5px 2px 5px 2px;
+        margin-left: 35%;
+        margin-right: 35%;
+    
+    }
+    
+    .horarios .tabla{
+        font-size: larger;
+        ;
+        background-color: #eaeaea;
+        table-layout: auto;
+        margin: 0 auto;
+    }
+    
+tr{
+    margin: 5px;
+    padding: 5px;
+}
+
+td{
+    margin: 5px;
+    padding: 5px;
+}
+
+.tabla .dias{
+    font-size:larger;
+}
+
+.tabla .dias .habiles{
+    color: #9575de;
+}
+
+.tabla .dias .finde{
+    color:#e966a0;
+}
+
+.tabla .manana .turno{
+font-size: larger;
+color: #7f8487;
+}
+
+.tabla .manana .habiles{
+    color: #9575de;
+}
+
+.tabla .manana .finde{
+    color:#e966a0;
+}
+
+.tabla .tarde .turno{
+    font-size: larger;
+    color: #7f8487;
+    }
+
+.tabla .tarde .habiles{
+    color: #9575de;
+}
+
+.tabla .tarde .finde{
+    color:#e966a0;
+}
+
+.tabla .virtual{
+    color: #6554af;
+}
+

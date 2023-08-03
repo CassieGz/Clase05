@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cyber Ada Services</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img id="titulo" src="./img/logo.png" alt="logo">
+        <!-- reemplace <h1 id="titulo">Cyber Ada Services</h1> por imagen -->
+    </header>
+    <nav>
+        <ul style="list-style: none;">
+                <li>Servicios</li>
+                <li>Quienes somos</li>
+                <li><a href="horarios.html" target="_blank">Horarios de atención</a></li>
+                <li><a href="contacto.html" target="_blank">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="feedback"> <!--hice una clase para poner color al fondo-->
+            <div class="contacto">
+                <h1>Contactanos!</h1>
+                <p>Respondemos personalmente. No usamos BOTS</p>
+            </div>
+            <form action="#" method="post">
+                <label for="nombreCliente">Nombre</label>
+                        <br>
+                <input type="text" placeholder="Juan" name="nombreCliente" required>
+                        <br>
+                <label for="">Email</label>
+                        <br>
+                <input type="email" placeholder="email@server.com" required>
+                        <br>
+                <label for="">Teléfono</label>
+                        <br>
+                <input type="tel" placeholder="xxx-xxxxxxx" required>
+                        <br>
+                <p>Seleccione el servicio de su interés</p>
+                <label for="paginaWeb">Diseño Web</label>
+                <input type="radio" name="servicio">
+                <br>
+                <select for="paginaWeb" id="paginaWeb">
+                    <option value=""></option>
+                    <option value="e-commerce">E-commerce</option>
+                    <option value="website">Website</option>
+                    <option value="landing">Landing</option>
+                </select>
+                        <br>
+                    <label for="marketing">Marketing Digital</label>
+                    <input type="radio" name="servicio">
+                        <br>
+                    <label for="hosting">Hosting/Dominio</label>
+                    <input type="radio" name="servicio">
+                    <p>Mensaje</p>
+                    <textarea name="mensaje" id="elMensaje" cols="35" rows="15"
+                    placeholder="Escribe algo..." maxlength="200"></textarea>
+                    <br>
+                    <input type="submit">
+                    <input type="reset">
+
+            </form>
+        </section>    
+    </main>
+    <footer class="pie">
+    <p>Cyber Ada Services&copy;2023</p>
+    </footer>
+
+</body>
+</html>
